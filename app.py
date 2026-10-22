@@ -151,7 +151,30 @@ h2 {
     border-radius: 10px !important;
     transition: all 0.2s ease-in-out;
 }
+/* Make Subject and Topic fields clearly visible */
+.stTextInput input,
+.stNumberInput input {
+    color: #263D30 !important;
+    background-color: #FFFFFF !important;
+}
 
+/* Make input labels visible */
+.stTextInput label,
+.stSelectbox label,
+.stDateInput label,
+.stNumberInput label {
+    color: #263D30 !important;
+}
+
+/* Make ADD TASK button visible */
+.stButton > button {
+    background-color: #355B46 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: bold !important;
+    padding: 10px 20px !important;
+}
 </style>
 
 """, unsafe_allow_html=True)
