@@ -175,6 +175,26 @@ h2 {
     font-weight: bold !important;
     padding: 10px 20px !important;
 }
+/* Fix text visibility on yellow backgrounds */
+.stAlert,
+.stAlert p,
+.stAlert div,
+[data-testid="stNotificationContent"] {
+    color: #263D30 !important;
+}
+
+/* Make priority and dropdown text visible */
+.stSelectbox div,
+.stSelectbox span,
+.stSelectbox input {
+    color: #263D30 !important;
+}
+
+/* Make highlighted text readable */
+.stMarkdown p,
+.stMarkdown span {
+    color: #263D30;
+}
 </style>
 
 """, unsafe_allow_html=True)
